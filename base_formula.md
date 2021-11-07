@@ -172,6 +172,28 @@ $$
         
         预先假设 $P(\theta)$分布，代入即可
         
+### 信息论
+
+- 自信息
+
+	$$I(x) = -log(p(x))$$
+    
+- 熵
+
+	$$H(X) = -\sum_{x \in X} P(X=x) log(P(X=x))$$
+    
+- 交叉熵
+
+	$$H(p,q) = -\sum_{x \in X} P(X=x) log(Q(X=x))$$
+
+- KL散度
+
+	$$D_{KL}(P||Q) = H(p,q) - I(p) = \sum_{x \in X} P(X=x) log(\frac {P(X=x)}{Q(X=x)})$$
+
+- 条件熵
+
+	$$H(Y|X) = H(X,Y) - H(X) = $$
+
 
 ### 机器学习公式
 
