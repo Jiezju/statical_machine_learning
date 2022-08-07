@@ -30,6 +30,7 @@ class KNN:
 
     def predict(self, x):
         # 多节点
+        # optimize: heap
         if isinstance(x[0], list):
             test_results = []
             for pt in x:
